@@ -1,11 +1,79 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        Expendedor exp = new Expendedor(4,1000);
+        Moneda m = null;
+        Comprador c=null;
+        m = new Moneda500();
+        c = new Comprador(m,655,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,655,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,655,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,655,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = null;
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = null;
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = null;
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = null;
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1000();
+        c = new Comprador(m,Expendedor.COCA,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1000();
+        c = new Comprador(m,Expendedor.COCA,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1000();
+        c = new Comprador(m,Expendedor.COCA,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1000();
+        c = new Comprador(m,Expendedor.COCA,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        m = new Moneda1500();
+        c = new Comprador(m,Expendedor.SPRITE,exp);
+        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
     }
 }
