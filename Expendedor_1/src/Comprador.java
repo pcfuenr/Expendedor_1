@@ -21,7 +21,6 @@ class Comprador{
                 }
             }
             else{
-                System.out.print("h");
                 sonido=null;
                 vuelto=m.getValor();
                 while(exp.getVuelto()!=null){

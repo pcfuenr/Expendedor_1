@@ -40,7 +40,6 @@ class Expendedor{
                 monVu.addMoneda();
                 p -= 100;
             }
-            System.out.print("h");
             if (cual == COCA) {
                 return coca.getBebida();
             }else if(cual==SPRITE) {
